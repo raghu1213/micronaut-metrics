@@ -1,0 +1,18 @@
+micronaut:
+  application:
+    name: micronautMetrics
+  metrics:
+    enabled: true
+    export:
+      influx:
+        enabled: true
+        step: PT1M
+netty:
+  default:
+    allocator:
+      max-order: 3
+otel:
+  exclusions:
+    - /health
+  traces:
+    exporter: jaeger

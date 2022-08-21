@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.practice
+testFramework: junit
+sourceLanguage: kotlin
+buildTool: maven
+features: [ annotation-api, app-name, http-client, jackson-databind, junit, kotlin, kotlin-application, logback, management, maven, micrometer, micrometer-annotation, micrometer-influx, netty-server, readme, shade, tracing-opentelemetry-annotations, tracing-opentelemetry-exporter-jaeger, tracing-opentelemetry-http, tracing-opentelemetry-jaeger, yaml ]
